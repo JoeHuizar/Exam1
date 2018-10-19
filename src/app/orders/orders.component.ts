@@ -98,6 +98,8 @@ export class OrdersComponent implements OnInit {
     }, 0);
     const taxAmount = total * .1;
     const subTotal = total - taxAmount;
-    console.log('total--->', total);
+    console.log('subtotal--->', subTotal);
+    console.log('tax amount--->', taxAmount);
+    console.log('total--->',total);
   }
 }
